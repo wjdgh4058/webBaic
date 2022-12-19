@@ -6,4 +6,8 @@ body {
   width: 1000px;
   height: 400px;
   background-color: pink;
+  background-image: url(../images/css.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 0;
 }
