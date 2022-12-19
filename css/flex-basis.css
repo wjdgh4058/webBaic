@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 100px;
+}
+
+.container {
+  border: 5px solid red;
+  background-color: silver;
+  display: flex;
+  flex-flow: row nowrap;
+  width: 1010px;
+}
+
+[class*="group"] {
+  height: 250px;
+}
+
+.group1 {
+  background-color: gold;
+  flex: 1 1 500px;
+}
+.group2 {
+  background-color: aqua;
+  flex: 1 2 1200px;
+}
+.group3 {
+  background-color: lightgreen;
+  flex: 1 1 300px;
+}
